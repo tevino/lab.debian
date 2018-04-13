@@ -1,7 +1,7 @@
 FROM debian:stable
 
 RUN apt-get update -q -y && apt-get install --no-install-recommends -y \
-gcc make \
+libc-dev gcc make \
 gdb valgrind \
 sed grep \
 bash \
