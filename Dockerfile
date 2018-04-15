@@ -5,7 +5,7 @@ libc-dev gcc make \
 locales \
 gdb valgrind \
 sed grep \
-bash \
+bash tmux \
 && rm -rf /var/lib/apt/lists/*
 
 # Set locale to en_US UTF-8

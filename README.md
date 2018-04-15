@@ -25,6 +25,7 @@ docker run --rm -it --security-opt seccomp:unconfined -v "$(pwd):/data" tevin/la
 ### Utility
 - sed
 - grep
+- tmux
 
 ### Shell
 - bash
