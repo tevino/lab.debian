@@ -6,7 +6,7 @@ locales \
 gdb valgrind \
 sed grep \
 bash tmux \
-curl \
+curl ca-certificates\
 && rm -rf /var/lib/apt/lists/*
 
 # Set locale to en_US UTF-8
@@ -18,3 +18,4 @@ RUN export DEBIAN_FRONTEND=noninteractive; echo "en_US.UTF-8 UTF-8" > /etc/local
 WORKDIR /data
 
 ENTRYPOINT ["/bin/bash"]
+

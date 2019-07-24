@@ -1,10 +1,15 @@
+# lab.debian
+
+`docker pull tevin/lab.debian`
+
 ## Usage
 
 ```shell
 docker run --rm -it --security-opt seccomp:unconfined -v "$(pwd):/data" tevin/lab.debian
 ```
 
-### Explaination:
+Explaination:
+
 - `--security-opt seccomp:unconfined` is for `gdb` to work properly
 - `ENTRYPOINT` is `/bin/bash`
 - `WORKDIR` is `/data`
@@ -38,3 +43,4 @@ docker run --rm -it --security-opt seccomp:unconfined -v "$(pwd):/data" tevin/la
 ### Network
 
 - curl
+
