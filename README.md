@@ -12,20 +12,29 @@ docker run --rm -it --security-opt seccomp:unconfined -v "$(pwd):/data" tevin/la
 ## Features
 
 ### Library
+
 - glibc
 
 ### Building
+
 - gcc
 - make
 
 ### Debugging
+
 - gdb
 - valgrind
 
 ### Utility
+
 - sed
 - grep
-- tmux
 
 ### Shell
+
 - bash
+- tmux
+
+### Network
+
+- curl

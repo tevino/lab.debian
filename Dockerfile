@@ -6,6 +6,7 @@ locales \
 gdb valgrind \
 sed grep \
 bash tmux \
+curl \
 && rm -rf /var/lib/apt/lists/*
 
 # Set locale to en_US UTF-8
