@@ -25,6 +25,10 @@ Explaination:
 - gcc
 - make
 
+### VCS
+
+- git
+
 ### Debugging
 
 - gdb

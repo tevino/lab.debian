@@ -6,7 +6,8 @@ locales \
 gdb valgrind \
 sed grep \
 bash tmux \
-curl ca-certificates\
+curl ca-certificates \
+git \
 && rm -rf /var/lib/apt/lists/*
 
 # Set locale to en_US UTF-8
